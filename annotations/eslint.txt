@@ -1,0 +1,5 @@
+// Iniciar configuração do eslint
+yarn eslint --init
+
+// Corrigir todos os arquivos
+yarn eslint --fix src --ext .js
