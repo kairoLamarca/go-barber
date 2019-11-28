@@ -1,5 +1,6 @@
 // criar migration
 yarn sequelize migration:create --name=create-users
+yarn sequelize migration:create --name=create-files
 
 // Executar migrations
 yarn sequelize db:migrate
