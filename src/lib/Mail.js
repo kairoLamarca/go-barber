@@ -18,7 +18,7 @@ class Mail {
     this.configureTemplates();
   }
 
-  configuretemplates() {
+  configureTemplates() {
     const viewPath = resolve(__dirname, '..', 'app', 'views', 'emails');
 
     this.transporter.use(
@@ -31,7 +31,7 @@ class Mail {
           extname: '.hbs',
         }),
         viewPath,
-        extname: '.hbs',
+        extName: '.hbs',
       })
     );
   }
